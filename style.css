@@ -1,0 +1,166 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 16px;
+}
+body{
+    background-color:     hsl(30, 54%, 90%);
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 30px;
+
+}
+.body img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.body h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family:Young Serif;
+    color: hsl(24, 5%, 18%)
+}
+.body p{
+    font-family: outfit;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+.preparation{
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+.preparation h2{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-family: outfit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul{
+    margin-left: 30px;
+}
+.preparation li{
+    margin-bottom: 5px;
+    font-family: outfit;
+    font-size: .9rem;
+    color: hsl(30, 10%, 34%);
+}
+.preparation span{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.ingredient h2{
+    margin-bottom: 10px;
+    font-family:Young Serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+.ingredient{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.ingredient ul{
+    margin-left: 30px;
+    margin-bottom:20px ;
+}
+.ingredient li{
+    margin-bottom: 5px;
+    font-family: outfit;
+    font-size: .9rem;
+    color: hsl(30, 10%, 34%);
+}
+.instructions{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.instructions h2{
+    margin-bottom: 10px;
+    font-family:Young Serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+.instructions ol{
+    margin-left: 30px;
+    margin-bottom:20px ;
+}
+.instructions li{
+    margin-bottom: 5px;
+    font-family: outfit;
+    font-size: .9rem;
+    color: hsl(30, 10%, 34%);
+}
+.instructions span{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.nutrition h2{
+    margin-bottom: 10px;
+    font-family:Young Serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+.nutrition{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.nutrition p{
+    font-family: outfit;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 5px;
+}
+.first p, .second p, .third p, .fourth p {
+ display: inline-block;
+ margin-right: 41%;
+ margin-bottom: 7px;
+ font-family: outfit;
+
+}
+.firsts{
+    margin-left: -7%;
+    font-weight: 800;
+}
+.seconds{
+    margin-left: -4.9%;
+    font-weight: 800;
+}
+.thirds{
+    margin-left: -6%;
+    font-weight: 800;
+}
+.fourths{
+    margin-left: -2.2%;
+    font-weight: 800;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
